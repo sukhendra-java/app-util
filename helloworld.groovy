@@ -9,3 +9,4 @@ def firstTest(){
       deleteDir()
     }
 }
+return this
