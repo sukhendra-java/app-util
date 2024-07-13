@@ -1,16 +1,12 @@
 #!groovy
 
 def firstTest(){
-
-  node('test-node'){
-    
+    echo "Second stage"
     stage('build'){
       echo "Second stage"
     }
-    
     stage('Cleanup workspace'){
       deleteDir()
     }
-  }
 }
 return this
