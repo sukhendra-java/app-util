@@ -2,7 +2,7 @@
 
 def firstTest() {
 
-    node ('test-node') {
+    node () {
 
         stage('build') {
             echo "Second stage"
